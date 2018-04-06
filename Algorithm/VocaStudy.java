@@ -7,7 +7,7 @@ public class VocaStudy {
 		String VOCA = voca.toLowerCase();
 		int num [] = new int [26];
 		char vocas [] = new char [voca.length()];
-		char alpa [] = {'A', 'B', 'C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
+		char alpha [] = {'A', 'B', 'C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
 		int result = 0;
 		int max = num[0];
 		int maxx = 0; 
@@ -35,7 +35,7 @@ public class VocaStudy {
 		if(a == true) {
 			System.out.println("?");
 		} else {
-			System.out.println(alpa[maxx]);
+			System.out.println(alpha[maxx]);
 		}
 		
 
